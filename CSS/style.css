@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(#010203, #080a0f) ;
+    background-image: -moz-linear-gradient(#080a0c, #0b0a0f) ;
+    background-image: -o-linear-gradient(#080a0c, #0b0a0f) ;
+}
+a{
+    color: #e2e2e2;
+}
+a:hover{
+    color: teal;
+}
+.hearder{ 
+    height: auto;
+}
+.social{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.social span{
+    text-decoration: none;
+    float: right;
+    padding: 15px 0;
+}
+.social span:hover{
+    text-decoration: underline;
+}
+#wlcm{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    margin: 10% 0;
+}
+#pfp{
+    float: left;
+    /*! margin: 0 250px 20px 0; */   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    /* (superflu) margin-left: 40%;
+    width: 20%; */
+}
+.softwares{
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
+}
+.introduce{
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+}
+.bestp_txt{
+    font-size: 45px;
+    text-align: center;
+}
+.bestprod{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.bestprod img:hover{
+    border: solid 5px rgb(3, 3, 5);
+}
+#feedback{
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-decoration: underline overline;
+}
+p, label, h2{
+    color: white;
+}
+.feed_name{
+    display: flex;
+}
+.feed_mail{
+    display: flex;
+}
+.message{
+    display: flex;
+}
